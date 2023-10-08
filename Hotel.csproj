@@ -105,11 +105,6 @@
     <Compile Include="ChangeUser.Designer.cs">
       <DependentUpon>ChangeUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="Database11.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Database11.xsd</DependentUpon>
-    </Compile>
     <Compile Include="DataRooms.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -235,17 +230,6 @@
     <EmbeddedResource Include="Return.resx">
       <DependentUpon>Return.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="Database11.xsc">
-      <DependentUpon>Database11.xsd</DependentUpon>
-    </None>
-    <None Include="Database11.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>Database11.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Database11.xss">
-      <DependentUpon>Database11.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
